@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Barra de navegacion */
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#333333;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+    
+}
+
+.nav-links li {
+    list-style-type: none;
+}
+
+.btn {
+    background-color: aqua;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+/* Tarjeta de Perfil */
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    border: 4px solid grey;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.cardheader {
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #17a2b8;
+    height: 65px;
+    width: auto;
+}
+
+.user {
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid white;
+    height: 100px;
+    width: 100px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.card_information {
+    padding-left: 40px;
+    margin-top: 60px;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    margin-bottom: 15px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.pin, .gear {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.edit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+a {
+    color:#307ce4;
+}
+
+/* container_principal */
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin: 0 400px;
+    gap: 50px;
+}
+
+.izquierda {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
+
+.derecha {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    gap: 20px;
+}
+
+/* header */
+.header {
+    display: flex;
+    direction: row;
+    background-color: rgb(35, 35, 35);
+    align-items: center;
+}
+
+h4 {
+    color: white;
+    background-color: rgb(35, 35, 35);
+    padding: 15px;
+}
+
+.number {
+    background-color: white;
+    border-radius: 50%;
+    padding:2px 8px;
+    margin-left: 10px;
+}
+
+.contenidoRequests, .imagen_nombre {
+    display: flex;
+    display: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.contenidoRequests {
+    justify-content: space-between ;
+    
+}
+
+.connectionPic {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    margin:15px;
+}
+
+.iconos {
+    width: 50px;
+    height: auto;
+}
+
+.view_more {
+    border-top: 3px solid gray;
+    padding: 20px;
+}
+
+.educacion, .request, .connections {
+    border: 3px solid gray;
+}
